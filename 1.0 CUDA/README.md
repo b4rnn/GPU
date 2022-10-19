@@ -1,3 +1,9 @@
+* DEPENDENCIES
+    `Ubuntu 18.04 LTS`
+    `NVIDIA 470`
+    `CUDA 11.04`
+    `CuDNN 7.6.5`
+    `gcc/g++ 11.1.0`
 # SETUP
 ```
  sudo apt-get remove --purge '^cuda-.*'
