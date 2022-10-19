@@ -78,3 +78,6 @@ cd deepstream_tlt_apps/TRT-OSS/x86
 nvcc deviceQuery.cpp -o deviceQuery
 ./deviceQuery | grep Capability
 ```
+```
+CUDA Capability Major/Minor version number:    8.6
+```
