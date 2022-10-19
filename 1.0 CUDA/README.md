@@ -1,4 +1,5 @@
-* DEPENDENCIES
+# DEPENDENCIES
+*
     `Ubuntu 18.04 LTS`
     `NVIDIA 470`
     `CUDA 11.04`
