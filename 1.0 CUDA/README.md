@@ -10,6 +10,7 @@
  sudo apt-get remove --purge '^cuda-.*'
  sudo apt-get remove --purge '^nvidia-.*'
  sudo apt-get remove --purge '^libnvidia-.*'
+ sudo apt install nvidia-driver-470
 ```
 # CUDA_ARCH_BIN
 ```
