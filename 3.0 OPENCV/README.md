@@ -1,4 +1,7 @@
 ```
+/sbin/ldconfig -N -v $(sed ‘s/:/ /’ <<< $LD_LIBRARY_PATH) 2>/dev/null | grep libcudnn
+```
+```
 cd /tmp
 wget -O opencv.zip https://github.com/opencv/opencv/archive/opencv-4.5.2.zip
 wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/opencv-4.5.2.zip
