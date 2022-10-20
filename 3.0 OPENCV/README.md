@@ -46,3 +46,9 @@ cmake
 -D CUDNN_VERSION=8.2.4 
 -D OPENCV_EXTRA_MODULES_PATH=/home/blackpearl/deepstream_tlt_apps/opencv_contrib/opencv_contrib-4.5.2/modules ..
 ```
+```
+make -j$(nproc)
+sudo make install
+sudo ldconfig
+pkg-config --modversion opencv4
+```
