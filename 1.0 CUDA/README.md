@@ -10,7 +10,9 @@
  sudo apt-get remove --purge '^cuda-.*'
  sudo apt-get remove --purge '^nvidia-.*'
  sudo apt-get remove --purge '^libnvidia-.*'
+ cd /tmp
  sudo rm -rf .X0-lock
+ wget https://download.nvidia.com/XFree86/Linux-x86_64/470.82.01/NVIDIA-Linux-x86_64-470.82.01.run
  sudo apt-get update
  sudo apt install nvidia-driver-470
  wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin
