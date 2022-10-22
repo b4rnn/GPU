@@ -12,6 +12,7 @@
  sudo apt-get remove --purge '^libnvidia-.*'
  cd /tmp
  sudo rm -rf .X0-lock
+ ubuntu-drivers devices
  wget https://download.nvidia.com/XFree86/Linux-x86_64/470.82.01/NVIDIA-Linux-x86_64-470.82.01.run
  sudo apt-get update
  sudo apt install nvidia-driver-470
