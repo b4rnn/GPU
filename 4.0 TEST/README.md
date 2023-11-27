@@ -21,3 +21,10 @@ int main()
     return 0;
 }
 ```
+
+#SWITCH CUDA VERSION
+export PATH=/usr/local/cuda-10.4/bin${PATH:+:$PATH}
+export LD_LIBRARY_PATH=/usr/local/cuda-10.4/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+source ~/.bashrc
+#CHECK CUDNN VERSION
+cat /usr/local/cuda/include/cudnn_version.h | grep CUDNN_MAJOR -A 2
